@@ -1,0 +1,20 @@
+
+/* Feuille CSS du projet Mes Ressources Documentaires
+   ========================================================================== */
+
+.body {
+    background-color: white;
+    width: auto;
+}
+
+.menuhead{
+    background-color: #FBF8FB;
+    margin : 20px, 40px;
+    border-bottom: #EFEFEE solid;
+    color:#9E999C;
+}
+
+.menuhead__logo{
+    width: 50px;
+    margin-right:16px;
+} 
