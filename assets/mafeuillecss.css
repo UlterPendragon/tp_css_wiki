@@ -7,11 +7,6 @@
 }
 
 
-body {
-    background-color: white;
-    width: auto;
-}
-
 /* header    ============== */
 
 
@@ -19,7 +14,8 @@ body {
     display: flex;
     flex: auto; 
     justify-content: space-between;
-    background-color: #FBF8FB;
+    
+    background-color: white;
     padding : 20px 40px;
     border-bottom: #EFEFEE solid;
     color:#9E999C;  
@@ -51,4 +47,69 @@ body {
 html {
     font-family: 'Asap', sans-serif; 
     color: #292728;
+}
+/* body    ============== */
+body {
+    background-color: #FBF8FB;
+    width: auto;
+   
+}
+
+/* container    ============== */
+.container{
+    max-width: 800px;
+    margin:0 auto;
+    height: 100%;
+    padding : 40px 20px;
+}
+
+
+.principalblock{
+    margin-bottom:40px;
+}
+
+.principalblock__title {
+    font-weight: initial;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.principalblock__undertitle {
+    color: #b4b4b4;
+}
+
+
+.whitecard{
+    display:flex;
+    align-items: center;
+    flex:auto;
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+    border : 5px solid #FBF8FB;
+    margin:0 auto;
+}
+
+.whitecard__imagecircle{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color:#e5eff5;
+    margin-right:20px;
+ 
+
+}
+.whitecard img{
+    width: 50px;
+}
+
+.whitecard__title{
+    font-size:32px;
+}
+
+.whitecard__undertitle{
+    margin-top : 8px;
+    color:#b4b4b4;  
 }
